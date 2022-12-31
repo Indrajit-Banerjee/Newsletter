@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "newsletter-signup",
+  "builds": [{ "src": "app.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/app.js" }]
+}
